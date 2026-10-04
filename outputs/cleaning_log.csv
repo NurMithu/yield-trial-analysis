@@ -1,0 +1,9 @@
+step,before,after,removed,note
+raw records,7485,7485,0,
+GPS jumps,7485,7460,25,step >10 m
+flow-lag correction,7460,7028,432,estimated lag = 6 s
+header up,7028,6884,144,
+start/end-of-pass trim,6884,6452,432,3 s each end
+speed limits,6452,6452,0,1.0-4.0 m/s
+yield outliers,6452,6418,34,"median/MAD, k=4, by field"
+clip to strips,6418,6418,0,inner buffer 1.5 m
